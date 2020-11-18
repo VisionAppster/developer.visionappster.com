@@ -1,0 +1,24 @@
+{
+  "name": "developer-visionappster-com",
+  "version": "1.0.0",
+  "description": "VisionAppster developer site",
+  "scripts": {
+    "build": "npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VisionAppster/developer.visionappster.com"
+  },
+  "author": {
+    "name": "VisionAppster",
+    "email": "dev.null@visionappster.com",
+    "url": "https://visionappster.com/"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://developer.visionappster.com",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+  }
+}

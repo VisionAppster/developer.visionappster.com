@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>VisionAppster - Raspberry Pi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VisionAppster Rasperry Pi">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124168783-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124168783-1');
+
+    </script>
+    <script>
+        (function() {
+
+            window.ldfdr = window.ldfdr || {};
+            (function(d, s, ss, fs) {
+                fs = d.getElementsByTagName(s)[0];
+
+                function ce(src) {
+                    var cs = d.createElement(s);
+                    cs.src = src;
+                    setTimeout(function() {
+                        fs.parentNode.insertBefore(cs, fs)
+                    }, 1);
+                }
+
+                ce(ss);
+            })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_Xbp1oaEgONr7EdVj.js');
+        })();
+
+    </script>
+</head>
+
+<body class=" ">
+    <a id="start"></a>
+    <!--end bar-->
+    <div class="nav-container ">
+        <div class="bar bar--sm visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 col-md-2">
+                        <a href="index.html">
+                            <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                            <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-10 text-right">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                            <i class="icon icon--sm stack-interface stack-menu"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </div>
+        <!--end bar-->
+        <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent" data-scroll-class='366px:pos-fixed'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 hidden-xs">
+                        <div class="bar__module">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                                <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                            </a>
+                        </div>
+                        <!--end module-->
+                    </div>
+                    <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
+                        <div class="bar__module">
+                            <ul class="menu-horizontal text-left">
+                                <li class="dropdown">
+                                    <a href="get_started.html">
+                                        Get Started
+                                    </a>
+
+                                </li>
+                                <li class="dropdown">
+                                    <span class="dropdown__trigger">Develop</span>
+                                    <div class="dropdown__container">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="dropdown__content col-lg-2 col-md-4">
+                                                    <ul class="menu-vertical">
+                                                        <li class="">
+                                                            <a href="visionappster.html">
+                                                                VisionAppster Builder
+                                                            </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="support_plans.html">
+                                                                Support Plans
+                                                            </a>
+                                                        </li>
+                                                        <li class="separate">
+                                                            <a href="roadmap.html">
+                                                                Roadmap
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                                <!--end dropdown content-->
+                                            </div>
+                                            <!--end row-->
+                                        </div>
+                                    </div>
+                                    <!--end dropdown container-->
+                                </li>
+                                <li class="dropdown">
+                                    <a href="visionappster_engine.html">
+                                        Deploy
+                                    </a>
+
+                                </li>
+                                <li class="dropdown">
+                                    <span class="dropdown__trigger">Distribute</span>
+                                    <div class="dropdown__container">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="dropdown__content col-lg-2 col-md-4">
+                                                    <ul class="menu-vertical">
+
+                                                        <li class="">
+                                                            <a href="become_seller.html">
+                                                                Become a Seller
+                                                            </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a href="https://visionappster.com">
+                                                                VisionAppster Store
+                                                            </a>
+                                                    </ul>
+                                                </div>
+                                                <!--end dropdown content-->
+                                            </div>
+                                            <!--end row-->
+                                        </div>
+                                    </div>
+                                    <!--end dropdown container-->
+                                </li>
+                                <li class="dropdown">
+                                    <a href="videos.html">
+                                        Videos
+                                    </a>
+
+                                </li>
+                                <li class="dropdown">
+                                    <span class="dropdown__trigger">Docs</span>
+                                    <div class="dropdown__container">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="dropdown__content col-lg-2 col-md-4">
+                                                    <ul class="menu-vertical">
+
+                                                        <li class="">
+                                                            <a href="https://doc.visionappster.com">
+                                                                Documentation
+                                                            </a>
+                                                        </li>
+                                                        <li class="separate">
+                                                            <a href="https://forum.visionappster.com">
+                                                                Developer Forum
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!--end dropdown content-->
+                                            </div>
+                                            <!--end row-->
+                                        </div>
+                                    </div>
+                                    <!--end dropdown container-->
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end module-->
+                        <div class="bar__module">
+                            <a class="btn btn--sm type--uppercase" href="visionappster.html">
+                                <span class="btn__text">
+                                    Get Builder
+                                </span>
+                            </a>
+                            <a class="btn btn--sm btn--primary-2 type--uppercase" href="https://visionappster.com/users/login">
+                                <span class="btn__text">
+                                    Account
+                                </span>
+                            </a>
+                        </div>
+                        <!--end module-->
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+
+        </nav>
+        <!--end bar-->
+    </div>
+    <div class="main-container">
+        <section class="page-navigator">
+            <ul>
+                <li>
+                    <a href="#top" class="inner-link" data-title="Top"></a>
+                </li>
+                <li>
+                    <a href="#raspberry" class="inner-link" data-title="Raspberry Pi 3+"></a>
+                </li>
+                <li>
+                    <a href="#visionappster" class="inner-link" data-title="VisionAppster"></a>
+                </li>
+                <li>
+                    <a href="#download" class="inner-link" data-title="Download"></a>
+                </li>
+            </ul>
+        </section>
+        <section id="top" class="text-center bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8"><br><br><br>
+                        <h1>VisionAppster for Raspberry Pi
+                            <br />
+                            <h3>The VisionAppster Engine lets you run vision apps on your server, cameras, PCs or even Raspberry Pi. It’s compatible with C API, RESTful API, and JavaScript and it works with multiple cameras. With the VisionAppster Engine, your camera calibration and perspective are always current, even when you change the position of your camera or cameras. </h3>
+                        </h1>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class=" bg--dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8 text-center">
+                        <img alt="Image" src="img/product-rasperry-black-1.png" />
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="bg--dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                        <h2 class="text-center">Machine Vision by Raspberry Pi</h2>
+                        <p class="lead text-center">
+                            The VisionAppster Engine is a reliable, economical and easy-to-use machine vision app development solution that runs with Raspberry Pi. Use ONNX Runtime for deep neural networks with together our 80+ analytics-building tools, including easy access to OpenCV, super simple template apps, and much more. VisionAppster and Raspberry Pi are a solid starting point for experienced developers and industry newcomers alike.
+                        </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section id="raspberry" class="switchable bg--dark">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-md-7">
+                        <img alt="Image" src="img/product-rasperry-black.png" />
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="switchable__text">
+                            <h3>Raspberry Pi 3 Model B+</h3>
+                            <p class="lead">
+                                With a 64-bit quad-core processor running at 1.4GHz, dual-band wireless LAN, bluetooth 4.2/BLE, PoE capability via a separate Poe HAT, Ethernet support and more, Raspberry Pi Model B+ is an even more powerful version of the most popular Raspberry Pi computer.<br><br>
+
+                                The Raspberry Pi Camera Module V2 features:<br>
+                                - Fixed focus lens on-board<br>
+                                - 8 megapixel native resolution <br>
+                                - Sensor-capable of 3280 x 2464px<br>
+                                - Supports 1080p30, 720p60 and 640x480p90 video
+
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section id="visionappster" class="bg--dark">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-md-7 col-lg-6">
+                        <div class="slider border--round boxed--border" data-paging="true" data-arrows="true">
+                            <ul class="slides">
+                                <li>
+                                    <img alt="Image" src="img/product-rasperry-pi-visionappster.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/product-rasperry-pi-visionappster_1.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/product-rasperry-pi-visionappster_2.png" />
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end slider-->
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <ul class="accordion accordion-2 accordion--oneopen">
+                            <li class="active">
+                                <div class="accordion__title">
+                                    <span class="h5">VisionAppster Application Builder</span>
+                                </div>
+                                <div class="accordion__content">
+                                    <p class="lead">
+                                        VisionAppster Builder is a vision software platform that enables vision users to develop and run computer vision apps. It includes over ONNX Runtime for neural networks, 80 different image processing, analysis, vision and control tools, including camera calibration for perspective correction, QR/barcode reading, multicamera support, C API and JavaScript support.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion__title">
+                                    <span class="h5">VisionAppster Application Engine</span>
+                                </div>
+                                <div class="accordion__content">
+                                    <p class="lead">
+                                        Our Application Engine lets you run vision apps on your server, cameras, PCs or even Raspberry Pi. You can connect and configure your computer vision apps with RESTful API. You can automatically correct perspectives and join multiple cameras and move or change cameras without any change to your vision app. Our engine also supports multiple simultaneous image sources.
+
+                                    </p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion__title">
+                                    <span class="h5">Get your FREE license</span>
+                                </div>
+                                <div class="accordion__content">
+                                    <p class="lead">
+                                        Get VisionAppster 3.0 today and build and run apps for FREE.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--end accordion-->
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section id="download" class="text-center space--lg bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Download Image for Raspberry Pi</h2>
+                        <form class="row justify-content-center">
+                            <a class="btn btn--primary type--uppercase" href="https://doc.visionappster.com/latest/install/raspberrypi/" onclick="gtag('event', 'Startdownload', {
+                                                                                                                          'event_category' : 'Download',
+                                                                                                                          'event_label' : 'RaspberryPiImagedownload'
+                                                                                                                        });">
+                                <span class="btn__text">
+                                    Download Image
+                                </span>
+
+                            </a>
+                        </form>
+                        <span class="type--fine-print">Buy Raspberry Pi from <a href="https://www.modmypi.com/raspberry-pi">Modmypi.com</a> or other retailers near you.
+
+                        </span>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <footer class="space--sm footer-2 bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 col-6">
+                        <h6 class="type--uppercase">Company</h6>
+                        <ul class="list--hover">
+                            <li>
+                                <a href="https://investor.visionappster.com">Company</a>
+                            </li>
+                            <li>
+                                <a href="https://investor.visionappster.com/contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-6">
+                        <h6 class="type--uppercase">Developers</h6>
+                        <ul class="list--hover">
+                            <li>
+                                <a href="get_started.html">Get Started</a>
+                            </li>
+                            <li>
+                                <a href="visionappster.html">Get Builder</a>
+                            </li>
+                            <li>
+                                <a href="https://doc.visionappster.com">Documentation</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.visionappster.com">Developer Forum</a>
+                            </li>
+                            <li>
+                                <a href="support_plans.html">Support Plans</a>
+                            </li>
+                            <li>
+                                <a href="roadmap.html">Roadmap</a>
+                            </li>
+                            <li>
+                                <a href="visionappster_engine.html">Visionappster Engine</a>
+                            </li>
+                            <li>
+                                <a href="camera-manufacturers.html">Camera Manufacturers</a>
+                            </li>
+                            <li>
+                                <a href="product_raspberrypi.html">Raspberry Pi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-6">
+                        <h6 class="type--uppercase">Videos and CookBooks</h6>
+                        <ul class="list--hover">
+                            <li>
+                                <a href="videos.html">Videos</a>
+                            </li>
+                            <li>
+                                <a href="https://doc.visionappster.com/latest/cookbook/">Cookbook</a>
+                            </li>
+                            <li>
+                                <a href="visionappster.html">Builder Online Demo</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-6">
+                        <h6 class="type--uppercase">Accounts</h6>
+                        <ul class="list--hover">
+                            <li>
+                                <a href="https://visionappster.com/users/login">My Cloud Account</a>
+                            </li>
+                            <li>
+                                <a href="https://visionappster.com/users/login">My Seller Account</a>
+                            </li>
+                            <li>
+                                <a href="become_seller.html">Become a Seller</a>
+                            </li>
+                            <li>
+                                <a href="https://visionappster.com">VisionAppster Store</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="type--fine-print">&copy;
+                            <span class="update-year"></span> VisionAppster.com</span>
+                        <a class="type--fine-print" href="privacy_policy.html">Privacy Policy</a>
+                        <a class="type--fine-print" href="terms_of_use_visionappster.html">Terms of Use</a>
+                        <a class="type--fine-print" href="legal.html">Legal</a>
+                    </div>
+                    <div class="col-md-6 text-right text-left-xs">
+                        <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="https://www.linkedin.com/company/visionappster">
+                                    <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/visionappster/">
+                                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Visionappster">
+                                    <i class="socicon socicon-twitter icon icon--xs"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </footer>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/flickity.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/granim.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

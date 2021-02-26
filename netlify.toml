@@ -1,3 +1,13 @@
 [build]
   publish = "_site"
   command = "npx eleventy"
+
+[[redirects]]
+  from = "/welcome/"
+  to = "/get-started/"
+  status = 301
+
+[[redirects]]
+  from = "/update/"
+  to = "/develop/builder/"
+  status = 301

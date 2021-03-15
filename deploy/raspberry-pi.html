@@ -6,6 +6,7 @@ tags: menu
 menu:
   order: 1
   title: Raspberry Pi
+  styleClass: separate
 ---
 <section class="page-navigator">
   <ul>
@@ -26,38 +27,46 @@ menu:
     </li>
   </ul>
 </section>
-<section id="top" class="text-center bg--dark">
+<section id="top" class="bg--dark">
   <div class="container">
-    <div class="row">
-      <div class="col-md-8"><br><br><br>
-        <h1>Raspberry Pi Machine Vision Kit</h1>
-        <h3>
+    <div class="row text-center">
+      <div class="col">
+        <h1 style="margin-top: 1em">Raspberry Pi Machine Vision Kit</h1>
+        <h3 style="padding-bottom: 1em">
           A fully-fledged, dirt cheap smart camera for real-world
           vision applications.
         </h3>
       </div>
     </div>
     <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
-<section class=" bg--dark">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-lg-8 text-center">
-        <img alt="Image" src="/assets/img/product-rasperry-black-1.png" />
+    <div class="row">
+      <div class="col-md-5">
+        <ul class="feature-list">
+          <li>Read barcodes and QR codes.</li>
+          <li>Read text.</li>
+          <li>Detect defects.</li>
+          <li>Measure accurately.</li>
+          <li>Find missing parts.</li>
+          <li>Count objects.</li>
+          <li>Verify colors.</li>
+          <li>Detect movement.</li>
+          <li>Classify objects.</li>
+          <li>Connect and extend using open interfaces.</li>
+        </ul>
+      </div>
+      <div class="col-md-7 text-center">
+        <img alt="Image" src="/assets/img/raspberry-wood-chips.jpg" />
       </div>
     </div>
     <!--end of row-->
   </div>
   <!--end of container-->
 </section>
-
-<section id="hardware" class="bg--dark">
+<section id="hardware" class="bg--light">
   <div class="container">
     <div class="row justify-content-around">
       <div class="col-md-7">
-        <img alt="Image" src="/assets/img/product-rasperry-black.png" />
+        <img title="Michael Henzler / Wikimedia Commons" alt="Image" src="/assets/img/rpi4b.jpg" />
       </div>
       <div class="col-md-5 col-lg-4">
         <h3>Raspberry Pi 4 + HQ camera</h3>
@@ -89,17 +98,16 @@ menu:
           The Raspberry Pi Machine Vision Kit comes with the
           <a href="/deploy/engine/">VisionAppster engine</a>
           preinstalled. A large set of built-in vision tools for
-          gauging, code reading and more is included for free. The
-          Engine also supports well-known vision libraries such as
-          OpenCV, Dlib and ONNX runtime out of the box and provides
-          programming interfaces for C, C++, JavaScript and Python.
+          gauging, code reading and more is included for free.
           All components available for download in the
           <a href="https://visionappster.com">VisionAppster store</a>
-          work on the Raspberry Pi.
+          also work on the Raspberry Pi. Communication is easy with
+          HTTP, and open extension interfaces let you to add custom
+          functionality using Python, JavaScript, C or C++.
         </p>
       </div>
       <div class="col-md-7">
-        <img alt="Image" src="/assets/img/product-rasperry-black.png" />
+        <img alt="Image" src="/assets/img/va-engine.png" />
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
@@ -123,7 +131,7 @@ menu:
         <img class="reseller-logo" src="/assets/img/reseller-jkollerup.dk.jpg" alt="jkollerup.dk">
       </div>
       <div class="col-6 text-left">
-        <a class="btn btn--primary type--uppercase" target="_blank" href="https://raspberrypi.dk/en/">
+        <a class="btn btn--primary type--uppercase" target="_blank" href="https://raspberrypi.dk/en/product/raspberry-pi-machine-vision-kit-visionappster/">
           <span class="btn__text">
             Buy
           </span>
@@ -165,7 +173,7 @@ menu:
 </section>
 
 
-<section id="make" class="space--lg bg--dark">
+<section id="make" class="space--lg bg--light">
   <style type="text/css">
    #make img {
      max-width: 400px;
@@ -189,7 +197,7 @@ menu:
           together.
         </p>
       </div>
-      <div class="col-md-4 row justify-content-center">
+      <div class="col-md-4 justify-content-center">
         <img alt="HQ camera adapter" src="/assets/img/raspberry-pi-hq-adapter.png">
       </div>
     </div>

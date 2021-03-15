@@ -1,1 +1,13 @@
-/*! Place your custom styles here */
+ul.feature-list {
+  list-style-type: disclosure-closed;
+  font-size: 130%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+img.builder-screenshot {
+  max-height: 500px;
+  max-width: calc(100% - 4em);
+  margin-bottom: 3em;
+  box-shadow: 0 0 1em 0 #e2e0ff;
+}

@@ -56,6 +56,7 @@ module.exports = function(eleventyConfig) {
   // This directory is just copied and not scanned for templates.
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("update/status.json");
   return {
     templateFormats: ['liquid', 'html'],
     htmlTemplateEngine: 'liquid',
